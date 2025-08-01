@@ -69,7 +69,7 @@ body {
 }
 
 .cta-button {
-    background: #ebb28d;
+    background: #e6ad9a;
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -81,7 +81,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    box-shadow: 0 4px 15px rgba(235, 178, 141, 0.3);
+    box-shadow: 0 4px 15px rgba(230, 173, 154, 0.3);
     text-decoration: none;
     min-height: 44px;
     min-width: 44px;
@@ -90,7 +90,7 @@ body {
 .cta-button:hover {
     background: #d99a6b;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(235, 178, 141, 0.4);
+    box-shadow: 0 6px 20px rgba(230, 173, 154, 0.4);
 }
 
 /* Gear Section */
@@ -104,7 +104,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #ebb28d;
+    color: #e6ad9a;
 }
 
 .section-subtitle {
@@ -142,7 +142,7 @@ body {
 .gear-icon {
     width: 80px;
     height: 80px;
-    background: #ebb28d;
+    background: #e6ad9a;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -156,7 +156,7 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #ebb28d;
+    color: #e6ad9a;
 }
 
 .gear-item p {
@@ -176,7 +176,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #ebb28d;
+    color: #e6ad9a;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -196,7 +196,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #ebb28d;
+    color: #e6ad9a;
 }
 
 .location-grid {
@@ -210,11 +210,18 @@ body {
     margin-right: auto;
 }
 
+@media (max-width: 768px) {
+    .location-grid {
+        max-width: 100%;
+        gap: 1rem;
+    }
+}
+
 .location-item {
     background: white;
     padding: 1rem 2rem;
     border-radius: 25px;
-    color: #ebb28d;
+    color: #e6ad9a;
     font-weight: 500;
     font-size: 1.1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -231,7 +238,7 @@ body {
 /* About Section */
 .about-section {
     padding: 80px 0;
-    background: #ebb28d;
+    background: #e6ad9a;
 }
 
 .about-content {
@@ -265,7 +272,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #f4a6cd;
+    color: #e6ad9a;
     font-weight: 500;
 }
 
@@ -303,7 +310,7 @@ body {
     text-align: center;
     font-family: 'Courier New', monospace;
     font-size: 1.1rem;
-    color: #8b6f47;
+    color: #d99a6b;
     margin-top: 15px;
     font-weight: 500;
 }
@@ -319,7 +326,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #ebb28d;
+    color: #e6ad9a;
 }
 
 .reviews-header {
@@ -342,7 +349,7 @@ body {
 .review-count {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #ebb28d;
+    color: #e6ad9a;
 }
 
 .reviews-grid {
@@ -379,13 +386,13 @@ body {
 
 .reviewer {
     font-weight: 600;
-    color: #ebb28d;
+    color: #e6ad9a;
 }
 
 /* Contact Section */
 .contact-section {
     padding: 70px 0;
-    background: #ebb28d;
+    background: #e6ad9a;
     color: white;
     text-align: center;
 }
@@ -417,7 +424,7 @@ body {
 }
 
 .contact-item i {
-    color: #e8a87c;
+    color: #d99a6b;
     font-size: 1.3rem;
 }
 
@@ -466,6 +473,7 @@ body {
         gap: 1.5rem;
         padding: 0 1rem;
         align-items: center;
+        text-align: center;
     }
     
     .reviews-grid {
@@ -495,12 +503,19 @@ body {
     
     .location-grid {
         padding: 0 1rem;
-        gap: 1rem;
+        gap: 0.8rem;
+        justify-content: space-between;
     }
     
     .location-item {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
+        flex: 1 1 calc(50% - 0.4rem);
+        min-width: 0;
+    }
+    
+    .location-item {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
+        text-align: center;
     }
     
     .polaroid {
@@ -547,8 +562,9 @@ body {
     }
     
     .location-item {
-        padding: 0.5rem 1rem;
-        font-size: 0.85rem;
+        padding: 0.5rem 0.6rem;
+        font-size: 0.8rem;
+        text-align: center;
     }
     
     .location-grid {
