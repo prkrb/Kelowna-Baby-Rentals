@@ -88,9 +88,9 @@ body {
 }
 
 .cta-button:hover {
-    background: #d99a6b;
+    background: #c67a5f;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(230, 173, 154, 0.4);
+    box-shadow: 0 6px 20px rgba(217, 140, 115, 0.4);
 }
 
 /* Gear Section */
@@ -424,13 +424,13 @@ body {
 }
 
 .contact-item i {
-    color: #d99a6b;
+    color: #d98c73;
     font-size: 1.3rem;
 }
 
 /* Footer */
 .footer {
-    background: #d99a6b;
+    background: #d98c73;
     color: #F0EDE6;
     text-align: center;
     padding: 2rem 0;
