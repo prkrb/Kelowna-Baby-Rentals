@@ -465,6 +465,7 @@ body {
         flex-direction: column;
         gap: 1.5rem;
         padding: 0 1rem;
+        align-items: center;
     }
     
     .reviews-grid {
@@ -498,8 +499,8 @@ body {
     }
     
     .location-item {
-        padding: 0.8rem 1.5rem;
-        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
     }
     
     .polaroid {
@@ -542,6 +543,19 @@ body {
     
     .cta-button {
         padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .location-item {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .location-grid {
+        gap: 0.8rem;
+    }
+    
+    .features-section .feature {
         font-size: 1rem;
     }
 }
